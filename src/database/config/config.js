@@ -29,10 +29,7 @@ module.exports = {
     //password: null,
     //database: "database_production",
     //host: "127.0.0.1",
-    username: DB_USERNAME,
-    password: DB_PASSWORD,
-    database: DB_NAME,
-    host: "127.0.0.1",
+    url: "postgres://delctejateqxkh:16098776a781217bcd4bbdd22d6bf8d20d02387af62e24a4144c388bb73d5a62@ec2-54-156-60-12.compute-1.amazonaws.com:5432/d23p7mvsallgsr",
     dialect: "postgres",
     dialectOptions: {
       ssl: {
